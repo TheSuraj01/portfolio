@@ -6,7 +6,7 @@ import { BsFileText } from "react-icons/bs";
 function ArticleCards(props) {
   return (
     <Card className="blog-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" className="card-image" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title className="underline">{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
