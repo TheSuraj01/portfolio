@@ -2,9 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogCard from "./BlogsCard";
 import Particle from "../Particle";
-import article1Image from "../../Assets/Articles/article1.png";
-import article2Image from "../../Assets/Articles/article2.png";
-import article3Image from "../../Assets/Articles/article3.png";
 
 function Articles() {
   return (
@@ -18,6 +15,15 @@ function Articles() {
           Here are a few articles I've written recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={"https://media.licdn.com/dms/image/v2/D5612AQGoH6Bsgq8QVA/article-cover_image-shrink_720_1280/B56ZVOfL1nGUAQ-/0/1740778556287?e=1746662400&v=beta&t=5VHbgSbI8W1HZYNTL40tdzPXlxXht3jBwaTw51R_I28"}
+              title="Traveling: The Best Way to Learn About Life"
+              description="It's a journey of self-discovery, resilience, and cultural immersion. From embracing diversity to learning life lessons through challenges, every trip transforms your perspective and enriches your soul."
+              readLink="https://www.linkedin.com/pulse/traveling-best-way-learn-life-suraj-kumar-yadav-sy4hc/?trackingId=VqtmoI7BOrq1mjg5tiZ%2BPg%3D%3D"
+            />
+          </Col>
+            
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={"https://media.licdn.com/dms/image/v2/D4D12AQHwYOOXnsiTsA/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1692903284003?e=1736380800&v=beta&t=jSo52hIF-2TewoTEPC4rfeI8tejGHFE68EqyGZcY42c"}
