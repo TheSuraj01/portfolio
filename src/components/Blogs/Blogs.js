@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogCard from "./BlogsCard";
 import Particle from "../Particle";
-// import article1Image from "../../Assets/Articles/article1.png";
-// import article2Image from "../../Assets/Articles/article2.png";
-// import article3Image from "../../Assets/Articles/article3.png";
+import article1Image from "../../Assets/Articles/article1.png";
+import article2Image from "../../Assets/Articles/article2.png";
+import article3Image from "../../Assets/Articles/article3.png";
 
 function Articles() {
   return (
